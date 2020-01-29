@@ -20,19 +20,16 @@ MATLAB Implementation of the Kuramoto-Vicsek Consensus-Based Optimization (KV-CB
 
 For the readers convenience we have included the following test files:
 
-Ackley and Rastrigin
---------------------
+#### Ackley and Rastrigin ####
 Test_KV_CBO_3D.m,
 Test_KV_CBO_MD.m,
 
-Robust Subspace Detection and Eigenfaces
-----------------------------------------
+#### Robust Subspace Detection and Eigenfaces ####
 Test_subspace_detection.m,
 Test_subspace_detection_3D.m,
 Test_eigenfaces.m,
 
 Test_eigenfaces.m requires the pictures to be saved columnwise in a text file Faces.txt, where the field separator is ','.
 
-Phase Retrieval
----------------
+#### Phase Retrieval ####
 Test_phase_retrieval.m.

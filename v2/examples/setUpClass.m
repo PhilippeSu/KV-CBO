@@ -32,6 +32,11 @@ classdef setUpClass
            param = paramSolomon();
         end
         
+        function [problem, param] = MaxEigenvalue(d)
+           problem = MaxEigenvalueClass(d);
+           param = paramMaxEigenvalue();
+        end
+        
         function [problem, param] = Haystack(d)
             
             P = 200; % data points 

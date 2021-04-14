@@ -19,5 +19,11 @@ function [param, V] = adaptParameters(param, V, info, last)
       V = V(:,I);
       param.N = Nnew;
     end
+    
+    if strcmp(param.adaptSigma, 'method1') 
+        param.sigma = param.sigma / 1.05;
+    elseif strcmp(param.adaptSigma, 'method2')
+        param.sigma = 1/log(last);
+    end
 
 end

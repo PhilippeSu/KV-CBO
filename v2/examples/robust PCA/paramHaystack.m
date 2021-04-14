@@ -7,6 +7,7 @@ param.alpha = 50000;
 param.logicVa = 'average'; 
 param.mode = 'anisotropic';
 param.sigma = 1;
+param.adaptSigma = 'fix';
 param.dt = 0.05;
 param.lambda = 1;
 param.mu = 0;

@@ -6,7 +6,7 @@ clear; clc; close all;
 d = 20;  % euclidean dimension (>= 2)
 
 % define the problem
-[problem, param] = setUpClass.MaxEigenvalue(d);
+[problem, param] = setUpClass.Ackley(d);
 
 % call KV-CBO
 [Va, info] = KVCBO(problem, param);

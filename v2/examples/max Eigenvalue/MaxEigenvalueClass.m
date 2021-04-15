@@ -17,7 +17,7 @@ classdef MaxEigenvalueClass
           obj.name = 'maximum Eigenvalue';
           
           A = randn(d);
-          A = A'*A;
+          A = 0.5*(A'*A);
           
           obj.A = A;
           obj.B = 0;

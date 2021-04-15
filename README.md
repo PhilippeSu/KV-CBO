@@ -8,6 +8,6 @@ This is a MATLAB implementation of the KV-CBO (Kuramoto-Vicsek Consensus-based O
 
 ### v2
 
-* In v2 we have added an implementation of KV-CBO with anisotropic (componentwise) noise, and the following test functions: Solomon, Griewank, Alpine, XSY random.
+* In v2 we have added an implementation of KV-CBO with anisotropic (componentwise) noise, and the following test functions: Solomon, Griewank, Alpine, XSY random, maximum Eigenvalue.
 
 

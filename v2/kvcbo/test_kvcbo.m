@@ -21,10 +21,11 @@ function [rate, final_info] = test_kvcbo(problem, param, test_param)
         final_info(i) = stats;
 
         error = final_info(i).error(end);
+        final_info(i).error(end:param.T) = error;
         if error < const
             count_success = count_success + 1;
         end
-
+        
         verbose_test_kvcbo(final_info, info, test_param, i)
 
         if i >= runs

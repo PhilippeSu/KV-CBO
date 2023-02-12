@@ -10,4 +10,7 @@ This is a MATLAB implementation of the KV-CBO (Kuramoto-Vicsek Consensus-based O
 
 * In v2 we have added an implementation of KV-CBO with anisotropic (componentwise) noise, and the following test functions: Solomon, Griewank, Alpine, XSY random, maximum Eigenvalue.
 
+* In PhD we included the code and tests from the dissertation 
+
+Analysis of a Consensus-based Optimization Method on Hypersurfaces and Applications (2023)
 

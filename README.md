@@ -12,11 +12,8 @@ This is a MATLAB implementation of the KV-CBO (Kuramoto-Vicsek Consensus-based O
 
 ### PhD
 
-* In PhD we included the code and tests from the dissertation 
+* In PhD we included the code and tests from the dissertation "Analysis of a Consensus-based Optimization Method on Hypersurfaces and Applications" (2023) published online at https://mediatum.ub.tum.de/?id=1647263
 
-    Analysis of a Consensus-based Optimization Method on Hypersurfaces and Applications (2023)
 
-  published online at https://mediatum.ub.tum.de/?id=1647263
-
-  Feel free to contact me in case of questions.
+Feel free to contact me in case of questions.
 
